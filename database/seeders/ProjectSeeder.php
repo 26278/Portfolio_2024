@@ -14,6 +14,16 @@ class ProjectSeeder extends Seeder
     public function run(): void
     {
         Project::create([
+            'title'      => 'Pauline Ymkje Meijer',
+            'subtitle'   => 'Kunst portfolio one-page website',
+            'image'      => 'paulineymkjemeijer-nl.png',
+            'type'       => 'One-page website',
+            'main_text'  => 'Pauline, een oud klasgenoot en student Fine Arts aan de HKU University of the Arts in Utrecht, verdiept zich al geruime tijd in het maken van kunst, waarbij haar projecten voortdurend verbeteren. Met de wens om haar werk binnenkort tentoon te stellen en online vindbaar te zijn, heb ik een portfolio website voor haar ontworpen. De website voldoet volledig aan haar eisen en heeft een minimalistisch en clean ontwerp, waarin meerdere foto’s van al haar projecten te zien zijn. Hiermee kan Pauline haar artistieke reis en groei op een professionele manier presenteren.',
+            'github'     => '',
+            'extra_link' => '',
+        ]);
+
+        Project::create([
             'title'      => 'Journey of the DevKing',
             'subtitle'   => 'Game in Java met JavaFXGL library',
             'image'      => 'devking.jpg',

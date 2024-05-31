@@ -14,6 +14,15 @@ class WorkExperienceSeeder extends Seeder
     public function run(): void
     {
         WorkExperience::create([
+            'company'     => 'GuestCompass',
+            'image'       => 'guestcompass.jpg',
+            'title'       => 'Fullstack developer',
+            'employee'    => true,
+            'header_text' => 'GuestCompass verbetert de digitale gastbeleving in hospitality. Met web- en mobiele apps kunnen gasten bijvoorbeeld hotelkamerdeuren openen.',
+            'main_text'   => 'In dienst bij GuestCompass heb ik geholpen aan het optimaliseren van de webapps en het platform erachter waar zowel GuestCompass zelf, maar ook receptionisten en administratoren van bijvoorbeeld studentencomplexen in werken. Hierin moest ik mijn technisch inzicht toepassen om zelf oplossingen te bedenken om nieuwe features uit te werken, en kon ik mijn creativiteit kwijt in samenwerking met designers om de nieuwe features vorm te geven.'
+        ]);
+
+        WorkExperience::create([
             'company'     => 'GumGum',
             'image'       => 'gumgum.jpg',
             'title'       => 'Creative Front-end Developer',
