@@ -1,0 +1,46 @@
+.so-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: inherit;
+    gap: 4em;
+    margin: 2em 0;
+}
+
+.so-container__title {
+    position: relative;
+    font-family: 'Sen-Bold', sans-serif;
+    font-size: 1.4em;
+}
+
+.so-container__project {
+    position: relative;
+    width: 100%;
+    padding: 0 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project__p-title {
+    font-family: 'Sen-Regular', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.p-pdf {
+    width: 100%;
+    height: calc(80vw * 1.4142);
+    max-height: 100vh;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .so-container__project {
+        padding: 0 calc((100vw - 1000px) / 2);
+    }
+}

@@ -1,0 +1,80 @@
+.contact-main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 15.64em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main__title-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    font-size: 1em;
+    max-width: 34em;
+    color: #005246;
+    font-family: 'Sen-Bold', sans-serif;
+}
+
+.contact-main__title-box > h2 {
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+.contact-main__title-box > p {
+    font-family: 'Quicksand-Regular', sans-serif;
+    margin-bottom: 1em;
+    color: #000;
+}
+
+.contact-main__business-card {
+    position: relative;
+    width: 80%;
+    height: calc(80vw / 90 * 58.2);
+    max-width: 34em;
+    max-height: 22.14em;
+    background-image: url("/assets/images/pattern.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.business-card__center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.center-box__title {
+    font-family: 'Sen-Bold', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: .5em;
+    color: #005246;
+}
+
+.center-box__subtitle {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+.center-box__mail {
+    font-family: 'Quicksand-Regular', sans-serif;
+    font-size: 1.2em;
+    margin: .5em 0 .2em 0;
+    text-decoration: underline;
+    color: #FF6600;
+}
